@@ -1,0 +1,18 @@
+# Django
+*.pyc
+__pycache__/
+*.sqlite3
+venv/
+
+# React
+node_modules/
+build/
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# AWS
+*.terraform*
+*.tfstate*
