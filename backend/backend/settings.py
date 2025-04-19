@@ -130,6 +130,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
     "http://34.226.245.246",
     "http://localhost:3000",
+    "http://abhi-django-react-frontend.s3-website-[region].amazonaws.com",
 ]
 
 # If using credentials
