@@ -6,7 +6,7 @@ function App() {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios.get('http://34.226.245.246:8001/api/hello/')
+    axios.get('http://127.0.0.1:8000/api/hello/')
       .then(response => {
         setMessage(response.data.message);
         setLoading(false);
